@@ -1,0 +1,15 @@
+2022-01-25 13:01:486 INFO  HomePage :32 - Enter User Name : standard_use
+2022-01-25 13:01:573 INFO  HomePage :36 - Enter Password : secret_sauce
+2022-01-25 13:01:655 INFO  HomePage :40 - Click on Login button 
+2022-01-25 13:01:519 INFO  HomePage :32 - Enter User Name : standard_user
+2022-01-25 13:01:638 INFO  HomePage :36 - Enter Password : secret_sauce
+2022-01-25 13:01:828 INFO  HomePage :40 - Click on Login button 
+2022-01-25 13:01:266 INFO  BasePage :33 - SelectPrice (high to low) Option from DropDown List.
+2022-01-25 13:01:324 INFO  BasePage :38 - Click on Add to Cart
+2022-01-25 13:01:420 INFO  BasePage :42 - Go to Shopping Cart
+2022-01-25 13:01:476 INFO  CheckOutPage :25 - Click on CheckOut Button
+2022-01-25 13:01:592 INFO  LogOutPage :46 - Enter name :Andrew
+2022-01-25 13:01:686 INFO  LogOutPage :48 - Enter name :Smith
+2022-01-25 13:01:773 INFO  LogOutPage :50 - Enter PostCode / Zip :CR8 9DE
+2022-01-25 13:01:840 INFO  LogOutPage :54 - Click on Continue Button
+2022-01-25 13:01:905 INFO  LogOutPage :59 - Click on finish Button

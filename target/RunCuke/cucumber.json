@@ -1,0 +1,212 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5371925000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User navigates saucedemo page and complete the item purchase",
+        "description": "",
+        "id": "search-functionality;user-navigates-saucedemo-page-and-complete-the-item-purchase",
+        "after": [
+          {
+            "result": {
+              "duration": 755430700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 181186800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on saucedemo page",
+            "match": {
+              "location": "MyStepdefs.iAmOnSaucedemoPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 338992800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with credential username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 34
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 63
+                }
+              ],
+              "location": "MyStepdefs.iLoginWithCredentialUsernameAndPassword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188223200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login button",
+            "match": {
+              "location": "MyStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 433403900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I filter the products by Price \"Price (high to low)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price (high to low)",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.iFilterTheProductsByPrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52619800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select cheapest \u0026 costliest products and add to basket",
+            "match": {
+              "location": "MyStepdefs.iSelectCheapestCostliestProductsAndAddToBasket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95221900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I open shopping cart",
+            "match": {
+              "location": "MyStepdefs.iOpenShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54956600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I go to checkout",
+            "match": {
+              "location": "MyStepdefs.iGoToCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293259500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter details firstname \"Andrew\", lastName \"Smith\" and zipPostalCode \"CR8 9DE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Andrew",
+                  "offset": 27
+                },
+                {
+                  "val": "Smith",
+                  "offset": 46
+                },
+                {
+                  "val": "CR8 9DE",
+                  "offset": 72
+                }
+              ],
+              "location": "MyStepdefs.iEnterDetailsFirstnameLastNameAndZipPostalCode(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66253300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on continue button",
+            "match": {
+              "location": "MyStepdefs.iClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62747800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on finish button",
+            "match": {
+              "location": "MyStepdefs.iClickOnFinishButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33432300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be able to see message \"THANK YOU FOR YOUR ORDER\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "THANK YOU FOR YOUR ORDER",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepdefs.iShouldBeAbleToSeeMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "As a user I want to purchase cheapest and costliest product from the saucedemo after sorting the products by Hight to Low filter.",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "purchase.feature"
+  }
+]
